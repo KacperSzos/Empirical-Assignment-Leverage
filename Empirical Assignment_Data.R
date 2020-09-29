@@ -1,6 +1,6 @@
 library(haven)
 library(clubSandwich)
-mydata <- read_dta("/Users/kacperszostakow/Desktop/data.dta")
+mydata <- read_dta("/Users/.../data.dta")
 attach(mydata)
 
 #create variables
