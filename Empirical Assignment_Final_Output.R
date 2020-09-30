@@ -29,7 +29,7 @@
 > mydataclean <- mydata[mydata$fic == "USA" & mydata$at > 0,]
 > attach(mydataclean)
 > #### a) 
-> length(unique(gvkey)) # we have 1354 obs & 677 firms
+> length(unique(gvkey)) # we have 7153 obs & 1988 firms
 [1] 1988
 > summary(mydataclean) # find MIN, MAX and AVERAGE
     gvkey               fyear         indfmt             consol            datafmt             curcd                fyr               at           
